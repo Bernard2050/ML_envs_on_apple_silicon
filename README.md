@@ -3,9 +3,8 @@
 Create a virtual environment and update pip:
 
 ```
-$ python3 -m venv .venv
-$ source .venv/bin/activate
-$ pip install -U pip
+$ conda create --name jaxmetal python=3.11
+$ conda activate jaxmetal
 ```
 
 Install Torch:
